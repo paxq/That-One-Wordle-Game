@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
+/* The Key Board */
+
+.textContainer{
+  height: 15vh;
+  width: 90vw;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 1px grey;
+  outline: none;
+  padding: 2rem;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.keyboard{
+  height: 30vh;
+  width: 45vw;
+  background: darkgrey;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.space{
+  width: 50%;
+  height: 0.5rem;
+  background: grey;
+}
+.key{
+  padding:0.5rem;
+  border-radius: 5px;
+}
+.key:active{
+  background:whitesmoke;
+}
+
+/* The Board */
+
+.board{
+  height: 50vh;
+  width: 30vw;
+}
+.line{
+  display: flex;
+  padding: 0.2rem;
+}
+.place{
+  margin: 0.2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background: lightgrey;
+}
